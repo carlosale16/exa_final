@@ -1,0 +1,7 @@
+
+def triangulo(n):
+    
+    return "\n".join([" "*(n-i)+"*"*(i) for i in range(0,n+1)])
+ 
+numero=int(input("indica un numero: "))
+print(triangulo(numero))
