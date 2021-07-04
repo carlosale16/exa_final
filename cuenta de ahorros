@@ -1,0 +1,7 @@
+dinero=float(input("Cantidad de dinero depositada: "))
+interes1=dinero*1.04
+interes2=interes1*1.04
+interes3=interes2*1.04
+print("Catidad de ahorros en el primer año es: "+ str(interes1))
+print("Catidad de ahorros en el segundo año es: "+ str(interes2))
+print("Catidad de ahorros en el tercer año es: "+ str(interes3))
